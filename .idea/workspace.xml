@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Create urls file">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Setup pytest testing library">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landing_page/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing_page/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landing_page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing_page/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/test_testing.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mateusz-lisowski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mateusz-lisowski/django-saas.git&quot;,
+    &quot;accountId&quot;: &quot;90a2bc28-01ec-4ecb-8082-8eff9897d490&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -36,16 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sindbad_the_sailor/PycharmProjects/django_saas",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas\src" />
+      <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -114,7 +134,55 @@
       <option name="project" value="LOCAL" />
       <updated>1718400817427</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create .gitignore file">
+      <option name="closed" value="true" />
+      <created>1718401620102</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718401620102</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Prepare test view">
+      <option name="closed" value="true" />
+      <created>1718401639310</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718401639310</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Rename landing page app according to django community conventions">
+      <option name="closed" value="true" />
+      <created>1718401872215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718401872215</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Render html template">
+      <option name="closed" value="true" />
+      <created>1718402940153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718402940153</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update requirements.txt with testing libraries">
+      <option name="closed" value="true" />
+      <created>1718443279272</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718443279272</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Setup pytest testing library">
+      <option name="closed" value="true" />
+      <created>1718444488132</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718444488132</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +193,12 @@
     <MESSAGE value="Create new django project" />
     <MESSAGE value="Register newly created app" />
     <MESSAGE value="Create urls file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create urls file" />
+    <MESSAGE value="Create .gitignore file" />
+    <MESSAGE value="Prepare test view" />
+    <MESSAGE value="Rename landing page app according to django community conventions" />
+    <MESSAGE value="Render html template" />
+    <MESSAGE value="Update requirements.txt with testing libraries" />
+    <MESSAGE value="Setup pytest testing library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup pytest testing library" />
   </component>
 </project>
