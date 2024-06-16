@@ -12,3 +12,7 @@ class LandingPageTest(unittest.TestCase):
         """Test if landing page returns proper status code."""
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
+
+    # def test_fail(self):
+    #     """Test ment to fail"""
+    #     self.assertEqual(0, 1)
