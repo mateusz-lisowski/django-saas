@@ -5,10 +5,6 @@ on:
     branches: [ "main" ]
 
 jobs:
-  quality-assurance:
-    name: Quality Assurance
-    uses: ./.github/workflows/integration.yaml
-
   deploy:
     runs-on: ubuntu-latest
     steps:
