@@ -3,5 +3,6 @@
 
 # virtual environments
 /venv/
-/.venv/
-/env/
+
+# python caches
+**/__pycache__/
