@@ -17,7 +17,7 @@ jobs:
         pip install -r requirements_dev.txt
     - name: Tidy imports
       run: |
-        isort
+        isort src
     - name: Analysing the code with flake8
       run: |
         flake8 src --max-line-length 99
