@@ -1,0 +1,15 @@
+services:
+
+  web:
+    build:
+      context: ./src/
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+
+  nginx:
+    build:
+      context: ./nginx/
+    ports:
+      - 80:80
