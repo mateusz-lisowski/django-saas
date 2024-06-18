@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Switch calling strategy to PR">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Finish CI/CD preparations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -354,16 +346,58 @@
       <option name="project" value="LOCAL" />
       <updated>1718746449142</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Change service name to 'web'">
+      <option name="closed" value="true" />
+      <created>1718748132048</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748132048</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Finish developing deploy workflow">
+      <option name="closed" value="true" />
+      <created>1718748160927</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748160927</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Set up basic services with web server and reverse proxy">
+      <option name="closed" value="true" />
+      <created>1718748205875</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748205875</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Fix nginx Dockerfile versioning and config placement">
+      <option name="closed" value="true" />
+      <created>1718748244746</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748244746</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add environmental vars form .env file">
+      <option name="closed" value="true" />
+      <created>1718748265697</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748265697</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Finish CI/CD preparations">
+      <option name="closed" value="true" />
+      <created>1718748288948</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748288948</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rename landing page app according to django community conventions" />
-    <MESSAGE value="Render html template" />
-    <MESSAGE value="Update requirements.txt with testing libraries" />
-    <MESSAGE value="Setup pytest testing library" />
-    <MESSAGE value="Switch to built-in django test library" />
-    <MESSAGE value="Create tests for landing page" />
     <MESSAGE value="Create build gh action" />
     <MESSAGE value="Create test gh action" />
     <MESSAGE value="Add isort to dev dependencies" />
@@ -383,6 +417,12 @@
     <MESSAGE value="Add static root to django settings" />
     <MESSAGE value="Add possibility to invoke workflow automatically" />
     <MESSAGE value="Switch calling strategy to PR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch calling strategy to PR" />
+    <MESSAGE value="Change service name to 'web'" />
+    <MESSAGE value="Finish developing deploy workflow" />
+    <MESSAGE value="Set up basic services with web server and reverse proxy" />
+    <MESSAGE value="Fix nginx Dockerfile versioning and config placement" />
+    <MESSAGE value="Add environmental vars form .env file" />
+    <MESSAGE value="Finish CI/CD preparations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish CI/CD preparations" />
   </component>
 </project>

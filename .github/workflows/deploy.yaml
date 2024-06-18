@@ -1,4 +1,4 @@
-name: Django CI
+name: Django webserver CI/CD
 
 on:
   push:
