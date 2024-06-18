@@ -38,4 +38,4 @@ jobs:
         END
     - name: Run deploy commands
       run: |
-        ssh target "cd django-saas/ && docker-compose down && git pull && docker-compose build && docker-compose up -d --force-recreate"
+        ssh target "cd django-saas/ && docker compose down && git pull && docker compose build && docker compose up -d --force-recreate"
