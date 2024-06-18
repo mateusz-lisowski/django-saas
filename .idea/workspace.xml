@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Finish CI/CD preparations" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Update workflow name">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/integration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/integration.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -394,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718748288948</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Update workflow name">
+      <option name="closed" value="true" />
+      <created>1718748385081</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748385081</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create build gh action" />
     <MESSAGE value="Create test gh action" />
     <MESSAGE value="Add isort to dev dependencies" />
     <MESSAGE value="Create import tiding task" />
@@ -423,6 +432,7 @@
     <MESSAGE value="Fix nginx Dockerfile versioning and config placement" />
     <MESSAGE value="Add environmental vars form .env file" />
     <MESSAGE value="Finish CI/CD preparations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish CI/CD preparations" />
+    <MESSAGE value="Update workflow name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workflow name" />
   </component>
 </project>
