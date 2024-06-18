@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Update workflow name">
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Set default value for django secret key">
       <change beforePath="$PROJECT_DIR$/.github/workflows/integration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/integration.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,12 +406,26 @@
       <option name="project" value="LOCAL" />
       <updated>1718748385081</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Update integration workflow with django private key env var">
+      <option name="closed" value="true" />
+      <created>1718748836254</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1718748836254</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Set default value for django secret key">
+      <option name="closed" value="true" />
+      <created>1718749118363</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1718749118363</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create test gh action" />
-    <MESSAGE value="Add isort to dev dependencies" />
     <MESSAGE value="Create import tiding task" />
     <MESSAGE value="Tidy imports" />
     <MESSAGE value="Specify directory to tide" />
@@ -433,6 +449,8 @@
     <MESSAGE value="Add environmental vars form .env file" />
     <MESSAGE value="Finish CI/CD preparations" />
     <MESSAGE value="Update workflow name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workflow name" />
+    <MESSAGE value="Update integration workflow with django private key env var" />
+    <MESSAGE value="Set default value for django secret key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set default value for django secret key" />
   </component>
 </project>

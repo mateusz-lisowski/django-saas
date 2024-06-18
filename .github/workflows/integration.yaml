@@ -5,8 +5,6 @@ on: [pull_request, workflow_call]
 jobs:
   integration:
     runs-on: ubuntu-latest
-    env:
-      DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
