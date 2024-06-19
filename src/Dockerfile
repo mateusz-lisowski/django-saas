@@ -1,6 +1,9 @@
 # Python 3.10 in alpine as a basic image
 FROM python:3.10-alpine
 
+# Set python to print all output to stdout
+ENV PYTHONUNBUFFERED 1
+
 # Set django secret key arg
 ARG DJANGO_SECRET_KEY
 ENV DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY}
