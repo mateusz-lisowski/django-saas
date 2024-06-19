@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Temporally disable secret key configuration" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Change logs buffering">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -426,12 +428,26 @@
       <option name="project" value="LOCAL" />
       <updated>1718749508558</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Change docker-compose invocation to docker compose">
+      <option name="closed" value="true" />
+      <created>1718750361454</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1718750361454</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Change logs buffering">
+      <option name="closed" value="true" />
+      <created>1718803898785</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1718803898785</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tidy imports" />
-    <MESSAGE value="Specify directory to tide" />
     <MESSAGE value="Create quality assurance script" />
     <MESSAGE value="Create docker-compose.yaml" />
     <MESSAGE value="Add python-decouple to project requirements.txt" />
@@ -455,6 +471,8 @@
     <MESSAGE value="Update integration workflow with django private key env var" />
     <MESSAGE value="Set default value for django secret key" />
     <MESSAGE value="Temporally disable secret key configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temporally disable secret key configuration" />
+    <MESSAGE value="Change docker-compose invocation to docker compose" />
+    <MESSAGE value="Change logs buffering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change logs buffering" />
   </component>
 </project>
