@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Change logs buffering">
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Update server name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -444,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718803898785</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Update server name">
+      <option name="closed" value="true" />
+      <created>1718826875036</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1718826875036</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create quality assurance script" />
     <MESSAGE value="Create docker-compose.yaml" />
     <MESSAGE value="Add python-decouple to project requirements.txt" />
     <MESSAGE value="Implement getting secrets from .env file" />
@@ -473,6 +480,7 @@
     <MESSAGE value="Temporally disable secret key configuration" />
     <MESSAGE value="Change docker-compose invocation to docker compose" />
     <MESSAGE value="Change logs buffering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change logs buffering" />
+    <MESSAGE value="Update server name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update server name" />
   </component>
 </project>
