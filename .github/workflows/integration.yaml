@@ -18,9 +18,9 @@ jobs:
     - name: Tidy imports
       run: |
         isort src
-    - name: Analysing the code with flake8
+    - name: Formatting code with black
       run: |
-        flake8 src --max-line-length 99
+        black src
     - name: Install project dependencies
       run: |
         python -m pip install --upgrade pip
