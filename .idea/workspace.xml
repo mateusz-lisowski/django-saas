@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Update server name">
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add tailwind CDN">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1718146046677</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1718146046677</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Create README.md">
-      <option name="closed" value="true" />
-      <created>1718146209398</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1718146209398</updated>
     </task>
     <task id="LOCAL-00003" summary="Create requirements.txt">
       <option name="closed" value="true" />
@@ -452,14 +437,42 @@
       <option name="project" value="LOCAL" />
       <updated>1718826875036</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Change flake8 linter to black code formatter">
+      <option name="closed" value="true" />
+      <created>1718920102968</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1718920102968</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Change flake8 linter to black code formatter in gh action">
+      <option name="closed" value="true" />
+      <created>1718920230436</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1718920230436</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Format all django project files with black">
+      <option name="closed" value="true" />
+      <created>1718920260824</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1718920260824</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Add tailwind CDN">
+      <option name="closed" value="true" />
+      <created>1719005145818</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1719005145818</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create docker-compose.yaml" />
-    <MESSAGE value="Add python-decouple to project requirements.txt" />
-    <MESSAGE value="Implement getting secrets from .env file" />
-    <MESSAGE value="Ignore .env files" />
     <MESSAGE value="Create django Dockerfile" />
     <MESSAGE value="Create nginx Dockerfile" />
     <MESSAGE value="Create nginx configuration file" />
@@ -481,6 +494,10 @@
     <MESSAGE value="Change docker-compose invocation to docker compose" />
     <MESSAGE value="Change logs buffering" />
     <MESSAGE value="Update server name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update server name" />
+    <MESSAGE value="Change flake8 linter to black code formatter" />
+    <MESSAGE value="Change flake8 linter to black code formatter in gh action" />
+    <MESSAGE value="Format all django project files with black" />
+    <MESSAGE value="Add tailwind CDN" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tailwind CDN" />
   </component>
 </project>
