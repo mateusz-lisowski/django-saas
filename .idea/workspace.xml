@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Create sample .env file">
-      <change afterPath="$PROJECT_DIR$/src/landing/templates/base/css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/landing/templates/base/js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django_saas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_saas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landing/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Integrated static files into html views" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,30 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Create urls file">
-      <option name="closed" value="true" />
-      <created>1718400817427</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1718400817427</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Create .gitignore file">
-      <option name="closed" value="true" />
-      <created>1718401620102</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1718401620102</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Prepare test view">
-      <option name="closed" value="true" />
-      <created>1718401639310</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1718401639310</updated>
     </task>
     <task id="LOCAL-00010" summary="Rename landing page app according to django community conventions">
       <option name="closed" value="true" />
@@ -475,13 +443,34 @@
       <option name="project" value="LOCAL" />
       <updated>1719073128429</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Update static files directory exclusion">
+      <option name="closed" value="true" />
+      <created>1719073214784</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1719073214784</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Add static files config">
+      <option name="closed" value="true" />
+      <created>1719073313708</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1719073313708</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Integrated static files into html views">
+      <option name="closed" value="true" />
+      <created>1719073353854</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1719073353854</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add gunicorn to project dependencies" />
-    <MESSAGE value="Add static root to django settings" />
-    <MESSAGE value="Add possibility to invoke workflow automatically" />
     <MESSAGE value="Switch calling strategy to PR" />
     <MESSAGE value="Change service name to 'web'" />
     <MESSAGE value="Finish developing deploy workflow" />
@@ -504,6 +493,9 @@
     <MESSAGE value="Exclude vendor files" />
     <MESSAGE value="Update .gitignore exclusions" />
     <MESSAGE value="Create sample .env file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create sample .env file" />
+    <MESSAGE value="Update static files directory exclusion" />
+    <MESSAGE value="Add static files config" />
+    <MESSAGE value="Integrated static files into html views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated static files into html views" />
   </component>
 </project>
