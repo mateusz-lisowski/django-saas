@@ -21,7 +21,7 @@ COPY ./requirements.txt .
 # Install all dependensies listed in requirements.txt
 RUN pip install -r requirements.txt
 
-# Copy src dir with django app to code dir
+# Copy src dir content with django app to code dir
 COPY . /code
 
 # Set working dir to /code
@@ -33,7 +33,7 @@ RUN python manage.py migrate --no-input
 # Pull static files from CDN
 RUN python manage.py pull_static
 
-# Set static files
+# Collect static files
 RUN python manage.py collectstatic --no-input
 
 # Run gunicorn server \

@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Create hello cli command">
-      <change afterPath="$PROJECT_DIR$/src/cli/management/commands/pull_static.py" afterDir="false" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add cli app testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qa.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/admin.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cli/management/commands/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/management/commands/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/management/commands/pull_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/management/commands/pull_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,38 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Switch to built-in django test library">
-      <option name="closed" value="true" />
-      <created>1718452176195</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1718452176195</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Create tests for landing page">
-      <option name="closed" value="true" />
-      <created>1718452189349</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1718452189349</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Create build gh action">
-      <option name="closed" value="true" />
-      <created>1718481395392</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1718481395392</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Create test gh action">
-      <option name="closed" value="true" />
-      <created>1718481403333</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1718481403333</updated>
     </task>
     <task id="LOCAL-00018" summary="Add isort to dev dependencies">
       <option name="closed" value="true" />
@@ -472,14 +446,42 @@
       <option name="project" value="LOCAL" />
       <updated>1719075269446</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Change bool values to int values">
+      <option name="closed" value="true" />
+      <created>1719077442036</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1719077442036</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Fix unused import">
+      <option name="closed" value="true" />
+      <created>1719077542347</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1719077542347</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Create command for pulling 3rd parties static files from CDNs">
+      <option name="closed" value="true" />
+      <created>1719077574922</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719077574922</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Add cli app testing">
+      <option name="closed" value="true" />
+      <created>1719078405273</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1719078405273</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix nginx Dockerfile versioning and config placement" />
-    <MESSAGE value="Add environmental vars form .env file" />
-    <MESSAGE value="Finish CI/CD preparations" />
-    <MESSAGE value="Update workflow name" />
     <MESSAGE value="Update integration workflow with django private key env var" />
     <MESSAGE value="Set default value for django secret key" />
     <MESSAGE value="Temporally disable secret key configuration" />
@@ -501,6 +503,10 @@
     <MESSAGE value="Add requests 3rd party for downloading static files" />
     <MESSAGE value="Register cli app" />
     <MESSAGE value="Create hello cli command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create hello cli command" />
+    <MESSAGE value="Change bool values to int values" />
+    <MESSAGE value="Fix unused import" />
+    <MESSAGE value="Create command for pulling 3rd parties static files from CDNs" />
+    <MESSAGE value="Add cli app testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cli app testing" />
   </component>
 </project>

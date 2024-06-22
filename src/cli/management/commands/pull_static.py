@@ -4,13 +4,12 @@ import requests
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 
-
 STATICFILES = {
-    'tailwind.min.css': 'https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css',
-    'tailwind.min.js': 'https://cdn.tailwindcss.com/'
+    "tailwind.min.css": "https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css",
+    "tailwind.min.js": "https://cdn.tailwindcss.com/",
 }
 
-OUTPUT_DIR = getattr(settings, 'STATICFILES_VENDOR_DIR')
+OUTPUT_DIR = getattr(settings, "STATICFILES_VENDOR_DIR")
 
 
 class Command(BaseCommand):
@@ -25,9 +24,13 @@ class Command(BaseCommand):
             output_path.parent.mkdir(parents=True, exist_ok=True)
             try:
                 r = requests.get(url)
-                with open(output_path, 'w', encoding='utf-8') as file:
+                with open(output_path, "w", encoding="utf-8") as file:
                     file.write(r.text)
-                self.stdout.write(self.style.SUCCESS(f"Successfully downloaded {file_name} to {output_path}"))
+                self.stdout.write(
+                    self.style.SUCCESS(
+                        f"Successfully downloaded {file_name} to {output_path}"
+                    )
+                )
             except Exception as e:
                 self.stderr.write(e)
                 raise CommandError(f"Cannot download file {file_name}")
