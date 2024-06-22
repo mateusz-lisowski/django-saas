@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Integrated static files into html views" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add requests 3rd party for downloading static files">
+      <change afterPath="$PROJECT_DIR$/src/cli/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cli/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cli/management/commands/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,22 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Rename landing page app according to django community conventions">
-      <option name="closed" value="true" />
-      <created>1718401872215</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1718401872215</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Render html template">
-      <option name="closed" value="true" />
-      <created>1718402940153</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1718402940153</updated>
     </task>
     <task id="LOCAL-00012" summary="Update requirements.txt with testing libraries">
       <option name="closed" value="true" />
@@ -467,12 +457,26 @@
       <option name="project" value="LOCAL" />
       <updated>1719073353854</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Create app for custom cli commands">
+      <option name="closed" value="true" />
+      <created>1719073697427</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1719073697427</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Add requests 3rd party for downloading static files">
+      <option name="closed" value="true" />
+      <created>1719074466081</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1719074466081</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Switch calling strategy to PR" />
-    <MESSAGE value="Change service name to 'web'" />
     <MESSAGE value="Finish developing deploy workflow" />
     <MESSAGE value="Set up basic services with web server and reverse proxy" />
     <MESSAGE value="Fix nginx Dockerfile versioning and config placement" />
@@ -496,6 +500,8 @@
     <MESSAGE value="Update static files directory exclusion" />
     <MESSAGE value="Add static files config" />
     <MESSAGE value="Integrated static files into html views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrated static files into html views" />
+    <MESSAGE value="Create app for custom cli commands" />
+    <MESSAGE value="Add requests 3rd party for downloading static files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add requests 3rd party for downloading static files" />
   </component>
 </project>
