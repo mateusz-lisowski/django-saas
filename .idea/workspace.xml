@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add cli app testing">
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add whitenoise to requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qa.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/management/commands/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/management/commands/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/management/commands/pull_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/management/commands/pull_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,38 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Add isort to dev dependencies">
-      <option name="closed" value="true" />
-      <created>1718643312278</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1718643312278</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Create import tiding task">
-      <option name="closed" value="true" />
-      <created>1718643329713</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1718643329713</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Tidy imports">
-      <option name="closed" value="true" />
-      <created>1718643338182</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1718643338182</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Specify directory to tide">
-      <option name="closed" value="true" />
-      <created>1718643382307</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1718643382307</updated>
     </task>
     <task id="LOCAL-00022" summary="Create quality assurance script">
       <option name="closed" value="true" />
@@ -478,14 +437,42 @@
       <option name="project" value="LOCAL" />
       <updated>1719078405273</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Fix static files pulling">
+      <option name="closed" value="true" />
+      <created>1719079005244</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1719079005244</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Fixed flake8 related issues">
+      <option name="closed" value="true" />
+      <created>1719079097699</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719079097699</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Fix command typo">
+      <option name="closed" value="true" />
+      <created>1719079150533</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1719079150533</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Add whitenoise to requirements.txt">
+      <option name="closed" value="true" />
+      <created>1719079607521</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1719079607521</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update integration workflow with django private key env var" />
-    <MESSAGE value="Set default value for django secret key" />
-    <MESSAGE value="Temporally disable secret key configuration" />
-    <MESSAGE value="Change docker-compose invocation to docker compose" />
     <MESSAGE value="Change logs buffering" />
     <MESSAGE value="Update server name" />
     <MESSAGE value="Change flake8 linter to black code formatter" />
@@ -507,6 +494,10 @@
     <MESSAGE value="Fix unused import" />
     <MESSAGE value="Create command for pulling 3rd parties static files from CDNs" />
     <MESSAGE value="Add cli app testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cli app testing" />
+    <MESSAGE value="Fix static files pulling" />
+    <MESSAGE value="Fixed flake8 related issues" />
+    <MESSAGE value="Fix command typo" />
+    <MESSAGE value="Add whitenoise to requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add whitenoise to requirements.txt" />
   </component>
 </project>
