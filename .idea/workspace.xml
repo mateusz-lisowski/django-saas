@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add requests 3rd party for downloading static files">
-      <change afterPath="$PROJECT_DIR$/src/cli/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cli/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cli/management/commands/hello.py" afterDir="false" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Create hello cli command">
+      <change afterPath="$PROJECT_DIR$/src/cli/management/commands/pull_static.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/management/commands/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/management/commands/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,22 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Update requirements.txt with testing libraries">
-      <option name="closed" value="true" />
-      <created>1718443279272</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1718443279272</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Setup pytest testing library">
-      <option name="closed" value="true" />
-      <created>1718444488132</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1718444488132</updated>
     </task>
     <task id="LOCAL-00014" summary="Switch to built-in django test library">
       <option name="closed" value="true" />
@@ -473,12 +456,26 @@
       <option name="project" value="LOCAL" />
       <updated>1719074466081</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Register cli app">
+      <option name="closed" value="true" />
+      <created>1719075223186</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1719075223186</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Create hello cli command">
+      <option name="closed" value="true" />
+      <created>1719075269446</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1719075269446</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish developing deploy workflow" />
-    <MESSAGE value="Set up basic services with web server and reverse proxy" />
     <MESSAGE value="Fix nginx Dockerfile versioning and config placement" />
     <MESSAGE value="Add environmental vars form .env file" />
     <MESSAGE value="Finish CI/CD preparations" />
@@ -502,6 +499,8 @@
     <MESSAGE value="Integrated static files into html views" />
     <MESSAGE value="Create app for custom cli commands" />
     <MESSAGE value="Add requests 3rd party for downloading static files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add requests 3rd party for downloading static files" />
+    <MESSAGE value="Register cli app" />
+    <MESSAGE value="Create hello cli command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create hello cli command" />
   </component>
 </project>

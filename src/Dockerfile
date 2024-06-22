@@ -30,6 +30,9 @@ WORKDIR /code
 # Migrate django db
 RUN python manage.py migrate --no-input
 
+# Pull static files from CDN
+RUN python manage.py pull_static
+
 # Set static files
 RUN python manage.py collectstatic --no-input
 
