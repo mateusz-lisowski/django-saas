@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add tailwind CDN">
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Create sample .env file">
+      <change afterPath="$PROJECT_DIR$/src/landing/templates/base/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landing/templates/base/js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_saas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_saas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landing/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +62,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas\src\staticfiles\vendors" />
       <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas\src" />
       <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas" />
     </key>
@@ -76,38 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Create requirements.txt">
-      <option name="closed" value="true" />
-      <created>1718146556680</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718146556680</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Restructure project layout">
-      <option name="closed" value="true" />
-      <created>1718146594273</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1718146594273</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Create new django project">
-      <option name="closed" value="true" />
-      <created>1718147286137</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1718147286137</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Register newly created app">
-      <option name="closed" value="true" />
-      <created>1718400806334</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1718400806334</updated>
     </task>
     <task id="LOCAL-00007" summary="Create urls file">
       <option name="closed" value="true" />
@@ -469,14 +443,42 @@
       <option name="project" value="LOCAL" />
       <updated>1719005145818</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Create app navbar">
+      <option name="closed" value="true" />
+      <created>1719005473546</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1719005473546</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Exclude vendor files">
+      <option name="closed" value="true" />
+      <created>1719057788097</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1719057788097</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Update .gitignore exclusions">
+      <option name="closed" value="true" />
+      <created>1719057876275</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1719057876275</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Create sample .env file">
+      <option name="closed" value="true" />
+      <created>1719073128429</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1719073128429</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create django Dockerfile" />
-    <MESSAGE value="Create nginx Dockerfile" />
-    <MESSAGE value="Create nginx configuration file" />
-    <MESSAGE value="Finish nginx Dockerfile" />
     <MESSAGE value="Add gunicorn to project dependencies" />
     <MESSAGE value="Add static root to django settings" />
     <MESSAGE value="Add possibility to invoke workflow automatically" />
@@ -498,6 +500,10 @@
     <MESSAGE value="Change flake8 linter to black code formatter in gh action" />
     <MESSAGE value="Format all django project files with black" />
     <MESSAGE value="Add tailwind CDN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tailwind CDN" />
+    <MESSAGE value="Create app navbar" />
+    <MESSAGE value="Exclude vendor files" />
+    <MESSAGE value="Update .gitignore exclusions" />
+    <MESSAGE value="Create sample .env file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create sample .env file" />
   </component>
 </project>
