@@ -22,9 +22,15 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r src/requirements.txt
+    - name: Pull static files
+      run: |
+        python src/manage.py pull_static
+    - name: Collect static files
+      run: |
+        python src/manage.py collectstatic --no-input
     - name: Testing landing page app
       run: |
-          python src/manage.py test landing
+        python src/manage.py test landing
     - name: Testing CLI app
       run: |
         python src/manage.py test cli

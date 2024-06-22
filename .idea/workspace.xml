@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add whitenoise to requirements.txt">
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Serve static files with whitenoise">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/integration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/integration.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,14 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Create quality assurance script">
-      <option name="closed" value="true" />
-      <created>1718645619170</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1718645619170</updated>
     </task>
     <task id="LOCAL-00023" summary="Create docker-compose.yaml">
       <option name="closed" value="true" />
@@ -469,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1719079607521</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Serve static files with whitenoise">
+      <option name="closed" value="true" />
+      <created>1719079755233</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1719079755233</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change logs buffering" />
     <MESSAGE value="Update server name" />
     <MESSAGE value="Change flake8 linter to black code formatter" />
     <MESSAGE value="Change flake8 linter to black code formatter in gh action" />
@@ -498,6 +498,7 @@
     <MESSAGE value="Fixed flake8 related issues" />
     <MESSAGE value="Fix command typo" />
     <MESSAGE value="Add whitenoise to requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add whitenoise to requirements.txt" />
+    <MESSAGE value="Serve static files with whitenoise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serve static files with whitenoise" />
   </component>
 </project>
