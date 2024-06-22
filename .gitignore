@@ -12,3 +12,6 @@
 
 # vendor 3rd party libraries
 src/staticfiles/vendors/
+
+# local static files root - local cdn
+**/local-cdn/
