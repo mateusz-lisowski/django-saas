@@ -9,3 +9,6 @@
 
 # environmental variable files
 .env
+
+# vendor 3rd party libraries
+src/staticfiles/vendors
