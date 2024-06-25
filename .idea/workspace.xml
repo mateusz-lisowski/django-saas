@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Serve static files with whitenoise">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/integration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/integration.yaml" afterDir="false" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add django allauth ui dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,46 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Create docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1718740671340</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1718740671340</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Add python-decouple to project requirements.txt">
-      <option name="closed" value="true" />
-      <created>1718740696705</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1718740696705</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Implement getting secrets from .env file">
-      <option name="closed" value="true" />
-      <created>1718740729598</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1718740729598</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Ignore .env files">
-      <option name="closed" value="true" />
-      <created>1718740743222</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1718740743222</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Create django Dockerfile">
-      <option name="closed" value="true" />
-      <created>1718740791082</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1718740791082</updated>
     </task>
     <task id="LOCAL-00028" summary="Create nginx Dockerfile">
       <option name="closed" value="true" />
@@ -470,15 +431,50 @@
       <option name="project" value="LOCAL" />
       <updated>1719079755233</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Fix static files pulling in integration workflow">
+      <option name="closed" value="true" />
+      <created>1719080681400</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1719080681400</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Add email configuration to sample .env file">
+      <option name="closed" value="true" />
+      <created>1719172517448</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719172517448</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Fix SSL setting">
+      <option name="closed" value="true" />
+      <created>1719172618263</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1719172618263</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Add django allauth dependency">
+      <option name="closed" value="true" />
+      <created>1719265689560</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1719265689560</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Add django allauth ui dependencies">
+      <option name="closed" value="true" />
+      <created>1719265854952</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1719265854952</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update server name" />
-    <MESSAGE value="Change flake8 linter to black code formatter" />
-    <MESSAGE value="Change flake8 linter to black code formatter in gh action" />
-    <MESSAGE value="Format all django project files with black" />
-    <MESSAGE value="Add tailwind CDN" />
     <MESSAGE value="Create app navbar" />
     <MESSAGE value="Exclude vendor files" />
     <MESSAGE value="Update .gitignore exclusions" />
@@ -499,6 +495,11 @@
     <MESSAGE value="Fix command typo" />
     <MESSAGE value="Add whitenoise to requirements.txt" />
     <MESSAGE value="Serve static files with whitenoise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serve static files with whitenoise" />
+    <MESSAGE value="Fix static files pulling in integration workflow" />
+    <MESSAGE value="Add email configuration to sample .env file" />
+    <MESSAGE value="Fix SSL setting" />
+    <MESSAGE value="Add django allauth dependency" />
+    <MESSAGE value="Add django allauth ui dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add django allauth ui dependencies" />
   </component>
 </project>
