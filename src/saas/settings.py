@@ -45,8 +45,11 @@ INSTALLED_APPS = [
     "landing",
     "cli",
     # 3rd parties apps
+    "allauth_ui",
     'allauth',
     'allauth.account',
+    "widget_tweaks",
+    "slippers",
 ]
 
 MIDDLEWARE = [
