@@ -7,12 +7,16 @@ Saas Django App
 {% block content %}
 <div class="navbar bg-base-100">
   <div class="flex-1">
-    <a class="btn btn-ghost text-xl">daisyUI</a>
+    <a href="{% url 'home' %}" class="btn btn-ghost text-xl">daisyUI</a>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="/accounts/signup">Sing Up</a></li>
-      <li><a href="/accounts/login">Login</a></li>
+      <li><a href="{% url 'account_signup' %}">Sing Up</a></li>
+      {% if request.user.is_authenticated %}
+        <li><a href="{% url 'account_logout' %}">Log Out</a></li>
+      {% else %}
+        <li><a href="{% url 'account_login' %}">Log In</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
