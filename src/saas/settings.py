@@ -42,8 +42,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Custom apps
-    "landing",
     "cli",
+    "landing",
+    "subscriptions",
     # 3rd parties apps
     "allauth_ui",
     'allauth',
