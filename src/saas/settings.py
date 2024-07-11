@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Custom apps
     "cli",
+    "customers",
     "landing",
     "subscriptions",
     # 3rd parties apps
