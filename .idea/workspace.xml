@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Add django allauth ui dependencies">
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Create and register stripe customer model">
+      <change beforePath="$PROJECT_DIR$/.idea/django_saas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_saas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/customers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +53,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sindbad_the_sailor/PycharmProjects/django_saas&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sindbad_the_sailor/PycharmProjects/django_saas/src/subscriptions&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas\src\subscriptions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas\src\staticfiles\vendors" />
       <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas\src" />
@@ -78,222 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Create nginx Dockerfile">
-      <option name="closed" value="true" />
-      <created>1718741763600</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1718741763600</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Create nginx configuration file">
-      <option name="closed" value="true" />
-      <created>1718741809800</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1718741809800</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Finish nginx Dockerfile">
-      <option name="closed" value="true" />
-      <created>1718741870652</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1718741870652</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Add gunicorn to project dependencies">
-      <option name="closed" value="true" />
-      <created>1718742300189</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1718742300189</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Add static root to django settings">
-      <option name="closed" value="true" />
-      <created>1718745026022</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1718745026022</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Add possibility to invoke workflow automatically">
-      <option name="closed" value="true" />
-      <created>1718746375012</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1718746375012</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Switch calling strategy to PR">
-      <option name="closed" value="true" />
-      <created>1718746449142</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1718746449142</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Change service name to 'web'">
-      <option name="closed" value="true" />
-      <created>1718748132048</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748132048</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Finish developing deploy workflow">
-      <option name="closed" value="true" />
-      <created>1718748160927</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748160927</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Set up basic services with web server and reverse proxy">
-      <option name="closed" value="true" />
-      <created>1718748205875</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748205875</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Fix nginx Dockerfile versioning and config placement">
-      <option name="closed" value="true" />
-      <created>1718748244746</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748244746</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Add environmental vars form .env file">
-      <option name="closed" value="true" />
-      <created>1718748265697</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748265697</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Finish CI/CD preparations">
-      <option name="closed" value="true" />
-      <created>1718748288948</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748288948</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Update workflow name">
-      <option name="closed" value="true" />
-      <created>1718748385081</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748385081</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Update integration workflow with django private key env var">
-      <option name="closed" value="true" />
-      <created>1718748836254</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1718748836254</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Set default value for django secret key">
-      <option name="closed" value="true" />
-      <created>1718749118363</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1718749118363</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Temporally disable secret key configuration">
-      <option name="closed" value="true" />
-      <created>1718749508558</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1718749508558</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Change docker-compose invocation to docker compose">
-      <option name="closed" value="true" />
-      <created>1718750361454</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1718750361454</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Change logs buffering">
-      <option name="closed" value="true" />
-      <created>1718803898785</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1718803898785</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Update server name">
-      <option name="closed" value="true" />
-      <created>1718826875036</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1718826875036</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Change flake8 linter to black code formatter">
-      <option name="closed" value="true" />
-      <created>1718920102968</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1718920102968</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Change flake8 linter to black code formatter in gh action">
-      <option name="closed" value="true" />
-      <created>1718920230436</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1718920230436</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Format all django project files with black">
-      <option name="closed" value="true" />
-      <created>1718920260824</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1718920260824</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Add tailwind CDN">
-      <option name="closed" value="true" />
-      <created>1719005145818</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1719005145818</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Create app navbar">
-      <option name="closed" value="true" />
-      <created>1719005473546</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1719005473546</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Exclude vendor files">
-      <option name="closed" value="true" />
-      <created>1719057788097</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1719057788097</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Update .gitignore exclusions">
-      <option name="closed" value="true" />
-      <created>1719057876275</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1719057876275</updated>
     </task>
     <task id="LOCAL-00055" summary="Create sample .env file">
       <option name="closed" value="true" />
@@ -471,35 +259,251 @@
       <option name="project" value="LOCAL" />
       <updated>1719265854952</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Update settings.py with django allauth settings">
+      <option name="closed" value="true" />
+      <created>1719350415833</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719350415833</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Add django allauth path">
+      <option name="closed" value="true" />
+      <created>1719350471466</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1719350471466</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Implement working django allauth integration">
+      <option name="closed" value="true" />
+      <created>1719350502069</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1719350502069</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Add goals section">
+      <option name="closed" value="true" />
+      <created>1719610833967</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1719610833967</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Delete unused app files">
+      <option name="closed" value="true" />
+      <created>1720270928486</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1720270928486</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Implement allauth_ui">
+      <option name="closed" value="true" />
+      <created>1720270965668</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1720270965668</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Add sign up and login links">
+      <option name="closed" value="true" />
+      <created>1720271149296</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1720271149297</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Implement reverse url mapping for navigation">
+      <option name="closed" value="true" />
+      <created>1720537594354</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1720537594354</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Name root path">
+      <option name="closed" value="true" />
+      <created>1720537850283</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1720537850283</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Update django all auth to social account supporting version">
+      <option name="closed" value="true" />
+      <created>1720537988358</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1720537988358</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Configure github social provider">
+      <option name="closed" value="true" />
+      <created>1720540443132</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1720540443132</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Create subscriptions app">
+      <option name="closed" value="true" />
+      <created>1720613944326</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1720613944326</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Register subscriptions app">
+      <option name="closed" value="true" />
+      <created>1720613951360</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1720613951360</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Crete mock subscription level templates">
+      <option name="closed" value="true" />
+      <created>1720614950176</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1720614950176</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Create basic subscription model">
+      <option name="closed" value="true" />
+      <created>1720614972798</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1720614972798</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Create subscription urls">
+      <option name="closed" value="true" />
+      <created>1720615153434</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1720615153434</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Register subscription urls">
+      <option name="closed" value="true" />
+      <created>1720615172633</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1720615172633</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Remove unnecessary path name">
+      <option name="closed" value="true" />
+      <created>1720615926843</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1720615926843</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Complete subscriptions logic">
+      <option name="closed" value="true" />
+      <created>1720615943948</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1720615943948</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Create command for syncing permissions with dedicated groups">
+      <option name="closed" value="true" />
+      <created>1720620348530</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1720620348530</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Register new user subscription model">
+      <option name="closed" value="true" />
+      <created>1720621338804</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1720621338804</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Update groups setting">
+      <option name="closed" value="true" />
+      <created>1720622541998</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1720622541998</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Add stripe dependency">
+      <option name="closed" value="true" />
+      <created>1720696778333</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1720696778333</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Add stripe api key example">
+      <option name="closed" value="true" />
+      <created>1720696940346</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1720696940346</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Create stripe customer app">
+      <option name="closed" value="true" />
+      <created>1720697666033</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1720697666033</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Register customer app">
+      <option name="closed" value="true" />
+      <created>1720698006357</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1720698006357</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Create and register stripe customer model">
+      <option name="closed" value="true" />
+      <created>1720698028787</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1720698028787</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create app navbar" />
-    <MESSAGE value="Exclude vendor files" />
-    <MESSAGE value="Update .gitignore exclusions" />
-    <MESSAGE value="Create sample .env file" />
-    <MESSAGE value="Update static files directory exclusion" />
-    <MESSAGE value="Add static files config" />
-    <MESSAGE value="Integrated static files into html views" />
-    <MESSAGE value="Create app for custom cli commands" />
-    <MESSAGE value="Add requests 3rd party for downloading static files" />
-    <MESSAGE value="Register cli app" />
-    <MESSAGE value="Create hello cli command" />
-    <MESSAGE value="Change bool values to int values" />
-    <MESSAGE value="Fix unused import" />
-    <MESSAGE value="Create command for pulling 3rd parties static files from CDNs" />
-    <MESSAGE value="Add cli app testing" />
-    <MESSAGE value="Fix static files pulling" />
-    <MESSAGE value="Fixed flake8 related issues" />
-    <MESSAGE value="Fix command typo" />
-    <MESSAGE value="Add whitenoise to requirements.txt" />
-    <MESSAGE value="Serve static files with whitenoise" />
-    <MESSAGE value="Fix static files pulling in integration workflow" />
-    <MESSAGE value="Add email configuration to sample .env file" />
-    <MESSAGE value="Fix SSL setting" />
-    <MESSAGE value="Add django allauth dependency" />
-    <MESSAGE value="Add django allauth ui dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add django allauth ui dependencies" />
+    <MESSAGE value="Implement working django allauth integration" />
+    <MESSAGE value="Add goals section" />
+    <MESSAGE value="Delete unused app files" />
+    <MESSAGE value="Implement allauth_ui" />
+    <MESSAGE value="Add sign up and login links" />
+    <MESSAGE value="Implement reverse url mapping for navigation" />
+    <MESSAGE value="Name root path" />
+    <MESSAGE value="Update django all auth to social account supporting version" />
+    <MESSAGE value="Configure github social provider" />
+    <MESSAGE value="Create subscriptions app" />
+    <MESSAGE value="Register subscriptions app" />
+    <MESSAGE value="Crete mock subscription level templates" />
+    <MESSAGE value="Create basic subscription model" />
+    <MESSAGE value="Create subscription urls" />
+    <MESSAGE value="Register subscription urls" />
+    <MESSAGE value="Remove unnecessary path name" />
+    <MESSAGE value="Complete subscriptions logic" />
+    <MESSAGE value="Create command for syncing permissions with dedicated groups" />
+    <MESSAGE value="Register new user subscription model" />
+    <MESSAGE value="Update groups setting" />
+    <MESSAGE value="Add stripe dependency" />
+    <MESSAGE value="Add stripe api key example" />
+    <MESSAGE value="Create stripe customer app" />
+    <MESSAGE value="Register customer app" />
+    <MESSAGE value="Create and register stripe customer model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create and register stripe customer model" />
   </component>
 </project>
