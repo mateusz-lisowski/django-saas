@@ -12,6 +12,9 @@ if "sk_test" in STRIPE_API_KEY and not DJANGO_DEBUG:
 stripe.api_key = STRIPE_API_KEY
 
 
-def create_stripe_customer():
-    pass
-
+def create_stripe_customer(name: str, email: str) -> str:
+    response = stripe.Customer.create(
+        name=name,
+        email=email
+    )
+    return response.id
