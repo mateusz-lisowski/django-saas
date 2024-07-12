@@ -3,6 +3,8 @@ from django.conf import settings
 from django.db import models
 from django.db.models.signals import post_save
 
+from utils import create_stripe_product
+
 
 ALLOW_CUSTOM_GROUPS = True
 
@@ -23,9 +25,26 @@ class Subscription(models.Model):
         Permission,
         limit_choices_to={"codename__in": [sub[0] for sub in SUBSCRIPTION_PERMISSIONS]}
     )
+    stripe_id = models.CharField(max_length=64, null=True, blank=True)
 
     class Meta:
         permissions = SUBSCRIPTION_PERMISSIONS
+
+    def save_override(self):
+
+        if self.stripe_id:
+            return
+
+        plan_id = create_stripe_product(
+            name=str(self.name),
+            metadata={"subscription_plan_id": self.id}
+        )
+
+        self.stripe_id = plan_id
+
+    def save(self, *args, **kwargs):
+        self.save_override()
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return f"{self.name}"
