@@ -19,3 +19,11 @@ def create_stripe_customer(name: str, email: str, metadata: dict) -> str:
         metadata=metadata
     )
     return response.id
+
+
+def create_stripe_product(name: str, metadata: dict) -> str:
+    response = stripe.Product.create(
+        name=name,
+        metadata=metadata
+    )
+    return response.id
