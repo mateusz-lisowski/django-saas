@@ -1,3 +1,5 @@
+from typing import Literal
+
 import stripe
 from decouple import config
 
@@ -24,6 +26,23 @@ def create_stripe_customer(name: str, email: str, metadata: dict) -> str:
 def create_stripe_product(name: str, metadata: dict) -> str:
     response = stripe.Product.create(
         name=name,
+        metadata=metadata
+    )
+    return response.id
+
+
+def create_stripe_price(
+        currency: str,
+        product: str,
+        metadata: dict,
+        unit_amount: int = 0,
+        interval: Literal["month", "year"] = "month"
+) -> str:
+    response = stripe.Price.create(
+        currency=currency,
+        unit_amount=unit_amount,
+        recurring={"interval": interval},
+        product=product,
         metadata=metadata
     )
     return response.id
