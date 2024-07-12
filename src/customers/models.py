@@ -17,22 +17,27 @@ class Customer(models.Model):
     stripe_id = models.CharField(max_length=64, null=True, blank=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
 
-    def save(self, *args, **kwargs):
+    def save_override(self):
 
         if self.stripe_id:
-            raise ValueError("Attempt to create stripe client who already exists")
+            return
 
         if self.init_email is None:
-            raise ValueError("Attempt to create stripe client without init email")
+            return
 
-        if self.init_email_confirmed:
-            customer_id = create_stripe_customer(
-                name=self.user.username,
-                email=str(self.init_email),
-                metadata={"user_id": self.user.id}
-            )
-            self.stripe_id = customer_id
+        if not self.init_email_confirmed:
+            return
 
+        customer_id = create_stripe_customer(
+            name=self.user.username,
+            email=str(self.init_email),
+            metadata={"user_id": self.user.id}
+        )
+
+        self.stripe_id = customer_id
+
+    def save(self, *args, **kwargs):
+        self.save_override()
         super().save(*args, **kwargs)
 
     def __str__(self):
