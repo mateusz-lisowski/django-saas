@@ -17,7 +17,7 @@ SUBSCRIPTION_PERMISSIONS = [
 ]
 
 
-class Subscription(models.Model):
+class SubscriptionPlan(models.Model):
     active = models.BooleanField(default=True)
     groups = models.ManyToManyField(Group)
     name = models.CharField(max_length=256)
@@ -52,7 +52,7 @@ class Subscription(models.Model):
 
 class UserSubscription(models.Model):
     active = models.BooleanField(default=True)
-    subscription = models.ForeignKey(Subscription, on_delete=models.SET_NULL, null=True, blank=True)
+    subscription = models.ForeignKey(SubscriptionPlan, on_delete=models.SET_NULL, null=True, blank=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
 
 
@@ -66,7 +66,7 @@ def user_subscription_post_save_signal(sender, instance, *args, **kwargs):
         user.groups.set(groups_ids)
 
     else:
-        qs = Subscription.objects.filter(active=True)
+        qs = SubscriptionPlan.objects.filter(active=True)
         if subscription is not None:
             qs.exclude(id=subscription.id)
 
