@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Create and register stripe customer model">
-      <change beforePath="$PROJECT_DIR$/.idea/django_saas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_saas.iml" afterDir="false" />
+    <list default="true" id="1fb7b38d-7667-41e6-8b63-7cab0e1ad97a" name="Changes" comment="Prepare subscription view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/customers/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sindbad_the_sailor/PycharmProjects/django_saas/src/subscriptions&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sindbad_the_sailor/PycharmProjects/django_saas",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sindbad_the_sailor\PycharmProjects\django_saas\src\subscriptions" />
@@ -70,7 +67,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -82,118 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718145960606</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Create sample .env file">
-      <option name="closed" value="true" />
-      <created>1719073128429</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1719073128429</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Update static files directory exclusion">
-      <option name="closed" value="true" />
-      <created>1719073214784</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1719073214784</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Add static files config">
-      <option name="closed" value="true" />
-      <created>1719073313708</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1719073313708</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Integrated static files into html views">
-      <option name="closed" value="true" />
-      <created>1719073353854</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1719073353854</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Create app for custom cli commands">
-      <option name="closed" value="true" />
-      <created>1719073697427</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1719073697427</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Add requests 3rd party for downloading static files">
-      <option name="closed" value="true" />
-      <created>1719074466081</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1719074466081</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Register cli app">
-      <option name="closed" value="true" />
-      <created>1719075223186</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1719075223186</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Create hello cli command">
-      <option name="closed" value="true" />
-      <created>1719075269446</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1719075269446</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Change bool values to int values">
-      <option name="closed" value="true" />
-      <created>1719077442036</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1719077442036</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Fix unused import">
-      <option name="closed" value="true" />
-      <created>1719077542347</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1719077542347</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Create command for pulling 3rd parties static files from CDNs">
-      <option name="closed" value="true" />
-      <created>1719077574922</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1719077574922</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Add cli app testing">
-      <option name="closed" value="true" />
-      <created>1719078405273</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1719078405273</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Fix static files pulling">
-      <option name="closed" value="true" />
-      <created>1719079005244</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1719079005244</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Fixed flake8 related issues">
-      <option name="closed" value="true" />
-      <created>1719079097699</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1719079097699</updated>
     </task>
     <task id="LOCAL-00069" summary="Fix command typo">
       <option name="closed" value="true" />
@@ -475,24 +360,122 @@
       <option name="project" value="LOCAL" />
       <updated>1720698028787</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Override save method">
+      <option name="closed" value="true" />
+      <created>1720711123818</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1720711123818</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Implement util for creating stripe customer">
+      <option name="closed" value="true" />
+      <created>1720711145559</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1720711145559</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Change project root">
+      <option name="closed" value="true" />
+      <created>1720711155968</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1720711155968</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Fix urls">
+      <option name="closed" value="true" />
+      <created>1720713686339</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1720713686339</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Add metadata parameter">
+      <option name="closed" value="true" />
+      <created>1720714813374</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1720714813374</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Implement allauth signals for user sign up and email confirm">
+      <option name="closed" value="true" />
+      <created>1720714840143</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1720714840143</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Fix save override method">
+      <option name="closed" value="true" />
+      <created>1720792317065</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1720792317065</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Implement method for saving subscription plan object">
+      <option name="closed" value="true" />
+      <created>1720792352605</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1720792352605</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Implement method for creating subscription plan">
+      <option name="closed" value="true" />
+      <created>1720792366609</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1720792366610</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Rename Subscription model to SubscriptionPlan">
+      <option name="closed" value="true" />
+      <created>1720792501549</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1720792501549</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Fix display and delete">
+      <option name="closed" value="true" />
+      <created>1720797361844</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1720797361844</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Fix stripe creation method">
+      <option name="closed" value="true" />
+      <created>1720797386305</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1720797386305</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Finish pricing and subscriptions">
+      <option name="closed" value="true" />
+      <created>1720797399972</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1720797399972</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Prepare subscription view">
+      <option name="closed" value="true" />
+      <created>1724964193444</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1724964193444</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement working django allauth integration" />
-    <MESSAGE value="Add goals section" />
-    <MESSAGE value="Delete unused app files" />
-    <MESSAGE value="Implement allauth_ui" />
-    <MESSAGE value="Add sign up and login links" />
-    <MESSAGE value="Implement reverse url mapping for navigation" />
-    <MESSAGE value="Name root path" />
-    <MESSAGE value="Update django all auth to social account supporting version" />
-    <MESSAGE value="Configure github social provider" />
-    <MESSAGE value="Create subscriptions app" />
-    <MESSAGE value="Register subscriptions app" />
-    <MESSAGE value="Crete mock subscription level templates" />
-    <MESSAGE value="Create basic subscription model" />
-    <MESSAGE value="Create subscription urls" />
     <MESSAGE value="Register subscription urls" />
     <MESSAGE value="Remove unnecessary path name" />
     <MESSAGE value="Complete subscriptions logic" />
@@ -504,6 +487,20 @@
     <MESSAGE value="Create stripe customer app" />
     <MESSAGE value="Register customer app" />
     <MESSAGE value="Create and register stripe customer model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create and register stripe customer model" />
+    <MESSAGE value="Override save method" />
+    <MESSAGE value="Implement util for creating stripe customer" />
+    <MESSAGE value="Change project root" />
+    <MESSAGE value="Fix urls" />
+    <MESSAGE value="Add metadata parameter" />
+    <MESSAGE value="Implement allauth signals for user sign up and email confirm" />
+    <MESSAGE value="Fix save override method" />
+    <MESSAGE value="Implement method for saving subscription plan object" />
+    <MESSAGE value="Implement method for creating subscription plan" />
+    <MESSAGE value="Rename Subscription model to SubscriptionPlan" />
+    <MESSAGE value="Fix display and delete" />
+    <MESSAGE value="Fix stripe creation method" />
+    <MESSAGE value="Finish pricing and subscriptions" />
+    <MESSAGE value="Prepare subscription view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare subscription view" />
   </component>
 </project>
